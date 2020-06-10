@@ -14,6 +14,5 @@ def input_to_index(user_input)
 end
 
 def move(board, user_input, char = "X")
-  user_input = user_input.to_i - 1
   board[user_input] = char
 end
